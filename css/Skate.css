@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    
+    --color-black:                 #000;
+
+    --color-white:                 #fff;
+
+    --color--red:                  #E40000;  
+
+    /* Border radius */
+    --border-min:                     20px;
+    --border-max:                     40px;
+
+    /* ### Fuente */
+
+    --font-primary:                  "Quicksand";
+    --font-secondary:                "Open Sans";
+
+    --font-max:                      48px;
+    --font__min:                     24px;
+}
+.body{
+    background-color: var(--color-black);
+}
+.header{
+    display: flex;
+width: 1440px;
+padding: 40px 67px 50px 67px;
+justify-content: center;
+align-items: center;
+display: flex;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+}
+.header__logo {
+    width: 111px;
+    height: 137px;
+    stroke-width: 1px;
+    stroke: var(--color--red);
+}
+.nav {
+    display: flex;
+    align-items: flex-start;
+    gap: 35px;
+}
+.nav__works {
+    width: 100px;
+    height: 41px;
+    color: var(--color-white);
+    font-family: var(--font-secondary);
+    font-size: var(--font__min);
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.nav__aboutme {
+    width: 97px;
+    height: 41px;
+    color: var(--color-white);
+    font-family: var(--font-secondary);
+    font-size: var(--font__min);
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.nav__contactme {
+    width: 141px;
+    height: 41px;
+    color: var(--color-white);
+    font-family: var(--font-secondary);
+    font-size: var(--font__min);
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.hero{
+    margin-top: 135px;
+    margin-bottom: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}    
+.hero__text{
+    width: 568px;
+    color: var(--color-white);
+font-family: var(--font-primary);
+font-size: var(--font-max);
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hero__img{
+    margin-top: 150px;
+    display: flex;
+align-items: center;
+gap: 36px;
+margin-bottom: 88px;
+}
+.img__left{
+    margin-left: 150px;
+    display: flex;
+width: 587px;
+flex-direction: column;
+align-items: center;
+gap: 44px;
+}
+.left__up{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+    align-self: stretch;
+}
+.lup__upleft{
+    height: 276px;
+align-self: stretch;
+border-radius: var(--border-min);
+display: flex;
+width: 276px;
+flex-direction: column;
+align-items: flex-start;
+gap: 44px;
+}
+
+.lup__left{
+    display: flex;
+    width: 276px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+}
+.lup__right{
+    display: flex;
+width: 276px;
+flex-direction: column;
+align-items: flex-start;
+gap: 44px;
+}
+.lup__upright{
+    
+    height: 276px;
+align-self: stretch;
+border-radius: var(--border-min);
+display: flex;
+width: 276px;
+flex-direction: column;
+align-items: flex-start;
+gap: 44px;
+
+}
+.left__down{
+    margin-left: 50px;
+align-items: flex-start;
+gap: 44px;
+align-self: stretch;
+display: flex;
+width: 490px;
+flex-direction: column;
+align-items: flex-start;
+gap: 44px;
+}
+.img__downleft{
+    display: flex;
+    flex-direction: column;
+    height: 276px;
+align-self: stretch;
+border-radius: var(--border-min);
+}
+.img__right{
+    display: flex;
+width: 587px;
+flex-direction: column;
+align-items: center;
+gap: 44px;
+}
+.right__up{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    align-self: stretch;
+}
+.rup__left{
+    height: 276px;
+align-self: stretch;
+border-radius: var(--border-min);
+display: flex;
+width: 276px;
+flex-direction: column;
+align-items: flex-start;
+gap: 44px;
+
+}
+.rup__upleft{
+
+    height: 276px;
+align-self: stretch;
+border-radius: var(--border-min);
+
+}
+.rup__upright{
+
+    height: 276px;
+align-self: stretch;
+border-radius: var(--border-min);
+}
+.rup__right{
+    display: flex;
+    width: 276px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+}
+.right__down{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+    align-self: stretch;
+}
+.img__downright{
+    height: 276px;
+    align-self: stretch;
+    border-radius: var(--border-min);
+}
